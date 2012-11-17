@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap enableLocalization="true" xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Default.aspx" title="$resources:Globalization,MenuHome"  description="">
+
+      <siteMapNode url="heading1.aspx" title="$resources:Globalization,MenuHeading1"  description="" >
+           <siteMapNode url="section11.aspx" title="$resources:Globalization,MenuSection11"  description="" />
+           <siteMapNode url="section12.aspx" title="$resources:Globalization,MenuSection12"  description="" />
+           <siteMapNode url="section13.aspx" title="$resources:Globalization,MenuSection13"  description="" />
+        </siteMapNode>
+        
+        <siteMapNode url="heading2.aspx" title="$resources:Globalization,MenuHeading2"  description="" >
+          <siteMapNode url="section21.aspx" title="$resources:Globalization,MenuSection21"  description="" />
+          <siteMapNode url="section22.aspx" title="$resources:Globalization,MenuSection22"  description="" />
+        </siteMapNode>
+      
+        <siteMapNode url="heading3.aspx" title="$resources:Globalization,MenuHeading3"  description="" >
+          <siteMapNode url="section31.aspx" title="$resources:Globalization,MenuSection31"  description="" />
+          <siteMapNode url="section32.aspx" title="$resources:Globalization,MenuSection32"  description="" />
+        </siteMapNode>
+      
+    </siteMapNode> 
+</siteMap>

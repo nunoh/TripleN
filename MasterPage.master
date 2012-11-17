@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <title>Triple N</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+
+        <!-- sitemap -->
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+
+      <div id="wrapper"> 
+
+         <div id="header">
+            header
+         </div>
+
+         <div id="menu">
+
+         </div>
+          
+         <div id="content">
+
+             <div id="languageSelect">
+                          <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="true" onselectedindexchanged="DropDownList1_SelectedIndexChanged">
+                             <asp:ListItem Value="en-GB">English</asp:ListItem>
+                             <asp:ListItem Value="es-ES">Spanish</asp:ListItem>                             
+                             <asp:ListItem Value="pt-PT">Portuguese</asp:ListItem>                             
+                          </asp:DropDownList>
+                       </div>
+               
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+
+         </div>
+
+         <div id ="footer">
+           Footer
+         </div>
+      </div>
+
+   </form>
+
+</body>
+
+</html>
