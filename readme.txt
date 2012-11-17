@@ -3,4 +3,4 @@ This is the final project for the Digital and Media Tools class from VIA Univers
 Group:
 Nuno Hespanhol
 André Alves
-Enrique Navaroo
+Enrique Navarro
