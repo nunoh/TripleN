@@ -1,13 +1,13 @@
 ﻿We should make sure that we use/do:
-- Photoshop
-- Flash
+- Photoshop (check)
+- Flash (chekc)
 - Masterpage (check)
-- HTML/XHTML Validator
-- CSS Validator
-- jQuery (extra)
+- jQuery
 - Javascript
-- AJAX Control Toolkit
+- AJAX Control Toolkit (
 - Usability
 - Globalization (check)
 - The Fucking Report! (wip)
 - Metadata (?)
+- HTML/XHTML Validator 
+- CSS Validator
