@@ -117,7 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AboutUs" xml:space="preserve">
+    <value>Sobre Nós</value>
+  </data>
+  <data name="BlackBeer" xml:space="preserve">
+    <value>Black Beer</value>
+  </data>
+  <data name="ClassicBeer" xml:space="preserve">
+    <value>Classic Beer</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Contacte-nos</value>
+  </data>
   <data name="foobar" xml:space="preserve">
     <value>Isto é Português!</value>
+  </data>
+  <data name="GourmetBeer" xml:space="preserve">
+    <value>Gourmet Beer</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="OurBeer" xml:space="preserve">
+    <value>A Nossa Cerveja</value>
+  </data>
+  <data name="RedBeer" xml:space="preserve">
+    <value>Red Beer</value>
+  </data>
+  <data name="WhereToBuy" xml:space="preserve">
+    <value>Onde Comprar</value>
   </data>
 </root>
