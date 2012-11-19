@@ -11,7 +11,7 @@
 <body>
     <form id="form1" runat="server">
     <!-- sitemap -->
-    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" />
     <div id="wrapper">
         <div id="header">
             <div id="languageSelect">
@@ -21,10 +21,8 @@
                     <asp:ListItem Value="pt-PT">Portuguese</asp:ListItem>
                 </asp:DropDownList>
             </div>
-            <div id="menu">
-                <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticDisplayLevels="2">
+                <asp:Menu ID="Menu1" CssClass="rounded_corners" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal">
                 </asp:Menu>
-            </div>
         </div>
         <div id="content">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
@@ -33,6 +31,14 @@
         <div id="footer">
         
             <div id="footer-left">
+                <div>
+                    <a href="#">NEWS</a> | 
+                    <a href="#">SITEMAP</a>
+                </div>
+                <div>
+                <p>Copyright © 2012 - DMT, VIA UC Horsens</p>
+                </div>
+             
             </div>
 
             <div id="footer-right">
