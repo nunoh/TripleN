@@ -32,6 +32,14 @@
         </div>
         <div id="footer">
         
+            <div id="footer-left">
+            </div>
+
+            <div id="footer-right">
+                <a href="#"><img src="img/twitter.png" /></a>
+                <a href="#"><img src="img/facebook.png" /></a>
+            </div>
+
         </div>
     </div>
     </form>
