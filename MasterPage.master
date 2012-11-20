@@ -21,8 +21,10 @@
                     <asp:ListItem Value="pt-PT">Portuguese</asp:ListItem>
                 </asp:DropDownList>
             </div>
-                <asp:Menu ID="Menu1" CssClass="rounded_corners" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal">
-                </asp:Menu>
+
+            <a href="index.aspx"><img src="img/logo.png" id="logo" /></a>
+            <asp:Menu ID="Menu1" CssClass="rounded_corners" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticHoverStyle-BackColor="#0066FF">
+            </asp:Menu>
         </div>
         <div id="content">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

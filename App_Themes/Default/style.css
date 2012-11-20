@@ -16,7 +16,7 @@ body
 
 #wrapper
 {
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 #languageSelect
@@ -73,7 +73,7 @@ a
 
 #main_news
 {
-    margin-top: 15px;
+    margin-top: 10px;
     height: 150px;
     width: 100%;
 }
@@ -122,5 +122,21 @@ a
 
 #content
 {
-    margin-top: 15px;
+    margin-top: 10px;
+}
+
+#logo 
+{
+    height: 207px;
+    width: 288px;
+    position: absolute;
+    top: 10px;
+    left: 160px;
+}
+
+.content-image 
+{
+    width: 100%;
+    height: 200px;
+    background-color: Blue;
 }
