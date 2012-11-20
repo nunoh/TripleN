@@ -6,7 +6,7 @@
 - Javascript
 - AJAX Control Toolkit (
 - Usability
-- Globalization (check)
+- Globalization (check... kind of)
 - The Fucking Report! (wip)
 - Metadata (?)
 - HTML/XHTML Validator 
