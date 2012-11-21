@@ -124,17 +124,36 @@ a {
 .content-main  {
     background-color: White;
     margin-top: 10px;
+    padding: 20px 20px 20px 20px;
 }
 
-.content-main p {
-    margin-left: 20px;
-}
 
 #where_image {
     background-image: url('../../img/where.png');
 }   
 
-.gmaps {
+#gmaps {
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
+    position: relative;
+    float: left;
+}
+
+#countries {
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 10px; 
+    position: relative;
+    float: right;
+    width: 270px;
+    /*line-height: 20px;*/
+    
+}
+
+#countries li {
+    margin-top: 10px;
+}
+
+#countries ul ul li {
+    margin-top: 0px;
 }
