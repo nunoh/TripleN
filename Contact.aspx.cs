@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 using System.Net.Mail;
 using System.Net;
 
-public partial class Contact : System.Web.UI.Page {
+public partial class Contact : BasePage {
 
     private String toEmailAddress = "nuno.hespanhol@gmail.com";
     private String senderEmailAddress = "nuno.hespanhol@gmail.com";
