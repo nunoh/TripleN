@@ -18,6 +18,11 @@ a {
     text-decoration: none;
 }
 
+p 
+{
+    text-align:justify;
+    text-justify:inter-word;
+}
 
 #wrapper {
     margin-top: 80px;

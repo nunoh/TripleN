@@ -19,7 +19,7 @@
         <div class="news_frame">
             <a href="#"><img src="img/banner2.png" class="rounded_corners" /></a>
         </div>
-        <div class="news_frame news_frame_last">
+        <div class="news_frame" id="news_frame_last">
             <a href="#"><img src="img/banner3.png" class="rounded_corners" /></a>
         </div>
     </div>
