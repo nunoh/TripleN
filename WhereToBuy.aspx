@@ -10,11 +10,11 @@
 
     <div class="content-main">
         
-        <p style="margin-top:0">
-        Right now <strong>Triple N</strong> is available in some of Europe's capitals and few other cities. We are expading it day by day. Just keep checking for new updates.
+        <p style="margin-top:0">        
+            <asp:Label ID="whereP1" runat="server" Text="<% $Resources:Strings, whereP1 %>"></asp:Label>        
         </p>
 
-        <p>Where you can buy a <strong>Triple N</strong> right now:</p>
+        <p><asp:Label ID="whereP2" runat="server" Text="<% $Resources:Strings, whereP2 %>"></asp:Label></p>
 
         <div id="gmaps">
             <iframe width="600" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=204438229589098210006.0004ceee6d00a95af3348&amp;ie=UTF8&amp;t=p&amp;source=embed&amp;ll=48.748945,3.603516&amp;spn=23.222741,52.734375&amp;z=4&amp;output=embed"></iframe>
@@ -54,15 +54,6 @@
                 <li>Copenhagen</li>
             </ul>
 
-            <!--
-            <p>
-            <li>United Kingdom</li>
-            <ul>
-                <li>London</li>
-            </ul>
-            </p>
-            -->
-                
         </ul>
         </p>
         </div>

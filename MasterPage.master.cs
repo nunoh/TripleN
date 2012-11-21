@@ -37,6 +37,7 @@ public partial class MasterPage : System.Web.UI.MasterPage {
         }
     }
 
+    /*
     // when a new value in the dropdownlist is selected, write it to the Culture cookie
     protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e) {
         // save Current Culture in Cookie - will be used in InitializeCulture in BasePage
@@ -44,7 +45,7 @@ public partial class MasterPage : System.Web.UI.MasterPage {
         // reload
         Response.Redirect(Request.Url.AbsolutePath);
     }
-
+    */
     protected void changeLanguageEN(object sender, EventArgs e) {
         
         Response.Cookies.Add(new HttpCookie("Culture", "en-GB"));

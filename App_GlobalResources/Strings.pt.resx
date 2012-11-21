@@ -147,4 +147,10 @@
   <data name="WhereToBuy" xml:space="preserve">
     <value>Onde Comprar</value>
   </data>
+  <data name="whereP1" xml:space="preserve">
+    <value>Actualmente, a Triple N está disponível em algumas capitais europeias e também em algumas outras cidades. Estamos a expandir a sua distribuição dia-a-dia. Está atento a novas atualizações.</value>
+  </data>
+  <data name="whereP2" xml:space="preserve">
+    <value>Onde podes comprar uma Triple N atualmente.</value>
+  </data>
 </root>
