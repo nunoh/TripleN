@@ -5,15 +5,40 @@
 <head runat="server">
     <title>Triple N</title>
     <link href="App_Themes/Default/style.css" rel="stylesheet" type="text/css" />
+    <link href="jquery/jquery-1.8.3.js" rel="stylesheet" type="text/css" />
+
+    <!--
+    <script type="text/javascript">
+        if (typeof jQuery == 'undefined')
+            alert("yes");
+        else
+            alert("no");
+
+        $.cookie("foo", "somevalue");
+        alert($.cookie("foo"));
+
+        //alert(c);
+    </script>
+    -->
+    
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+
 </head>
 <body>
     <form id="form1" runat="server">
     <!-- sitemap -->
     <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" />
     <div id="wrapper">
-        <div id="header">
+        <div id="header">            
+            
+            <div id="lng">
+                <a id="en" class="foo" OnServerClick="changeLanguageEN" runat="server">EN</a> |
+                <a id="es" OnServerClick="changeLanguageES" runat="server">ES</a> |
+                <a id="pt" OnServerClick="changeLanguagePT" runat="server">PT</a>
+            </div>
+
+            <!--
             <div id="languageSelect">
                 <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="true" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
                     <asp:ListItem Value="en-GB">English</asp:ListItem>
@@ -21,6 +46,7 @@
                     <asp:ListItem Value="pt-PT">Portuguese</asp:ListItem>
                 </asp:DropDownList>
             </div>
+            -->
 
             <a href="index.aspx"><img src="img/logo.png" id="logo" /></a>
             <asp:Menu ID="Menu1" CssClass="rounded_corners" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticHoverStyle-BackColor="#0066FF">

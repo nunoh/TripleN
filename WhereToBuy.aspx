@@ -6,7 +6,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     
-    <div id="where_banner" class="content-image  rounded_corners"></div>
+    <div id="where-banner" class="content-image  rounded_corners"></div>
 
     <div class="content-main">
         

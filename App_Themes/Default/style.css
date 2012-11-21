@@ -128,7 +128,7 @@ a {
 }
 
 
-#where_banner {
+#where-banner {
     background-image: url('../../img/where.png');
 }   
 
@@ -146,8 +146,6 @@ a {
     position: relative;
     float: right;
     width: 270px;
-    /*line-height: 20px;*/
-    
 }
 
 #countries li {
@@ -156,4 +154,20 @@ a {
 
 #countries ul ul li {
     margin-top: 0px;
+}
+
+#lng {
+    position: relative;
+    float:right;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+}
+
+#lng a {
+    /*text-decoration: underline;*/
+}
+
+#lng-sel {
+    font-weight: bold;
 }
