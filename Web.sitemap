@@ -3,10 +3,10 @@
   <siteMapNode url="index.aspx" title="$resources:Strings,Home"  description="Main page of the website.">
     <siteMapNode url="AboutUs.aspx" title="$resources:Strings,AboutUs"  description="All about the brand." />
     <siteMapNode url="~/Beers/Default.aspx" title="$resources:Strings,OurBeer"  description="All about the beer." >
-      <siteMapNode url="~/Beers/ClassicBeer.aspx" title="$resources:Strings,ClassicBeer"  description="Page about the Classic beer." />
-      <siteMapNode url="~/Beers/GourmetBeer.aspx" title="$resources:Strings,GourmetBeer"  description="Page about the Gourmet beer." />
-      <siteMapNode url="~/Beers/RedBeer.aspx" title="$resources:Strings,RedBeer"  description="Page about the Red beer." />
-      <siteMapNode url="~/Beers/BlackBeer.aspx" title="$resources:Strings,BlackBeer"  description="Page about the Black beer." />
+      <siteMapNode url="~/ClassicBeer.aspx" title="$resources:Strings,ClassicBeer"  description="Page about the Classic beer." />
+      <siteMapNode url="~/GourmetBeer.aspx" title="$resources:Strings,GourmetBeer"  description="Page about the Gourmet beer." />
+      <siteMapNode url="~/RedBeer.aspx" title="$resources:Strings,RedBeer"  description="Page about the Red beer." />
+      <siteMapNode url="~/BlackBeer.aspx" title="$resources:Strings,BlackBeer"  description="Page about the Black beer." />
     </siteMapNode>
     <siteMapNode url="WhereToBuy.aspx" title="$resources:Strings,WhereToBuy"  description="Locals to buy our beer." />
     <siteMapNode url="Contact.aspx" title="$resources:Strings,ContactUs"  description="Page for contact." />
