@@ -49,7 +49,7 @@
         </div>
         -->
     </div>
-    <script src="anim.js" type="text/javascript"></script>
+    <script src="js/anim.js" type="text/javascript"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             animateTop();
