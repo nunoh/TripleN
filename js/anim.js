@@ -1,7 +1,7 @@
 ﻿// Code for the animated beer
 
 function hideBottle() {
-    $("#ani").fadeOut(500);
+    $("#ani").fadeOut(1000);
 }
 
 function move(obj, property, newPos, time) {

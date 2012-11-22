@@ -40,7 +40,7 @@
         </div>
 
         <div id="sayhi" style="position:absolute; left: 570px; top: 300px; color:#ff6a00; display:none; text-align:center; width:200px;">
-            Welcome!<br />Have one with us!
+            Welcome!<br />Have a Triple N with us!
         </div>
 
         <!--
@@ -53,7 +53,7 @@
     <script type="text/javascript">
         $(document).ready(function () {
             animateTop();
-            setTimeout("hideBottle()",8000);
+            setTimeout("hideBottle()", 8000);
         });
     </script>
 </asp:Content>
