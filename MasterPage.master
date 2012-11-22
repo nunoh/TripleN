@@ -36,7 +36,7 @@
             <div id="footer-left">
                 <div>
                     <a href="#">NEWS</a> | 
-                    <a href="#">SITEMAP</a>
+                    <a href="SiteMap.aspx">SITEMAP</a>
                 </div>
                 <div>
                 <p>Copyright © 2012 - DMT, VIA UC Horsens</p>
