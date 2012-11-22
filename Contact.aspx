@@ -1,4 +1,4 @@
-﻿﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true"
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true"
     CodeFile="Contact.aspx.cs" Inherits="Contact" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
@@ -24,17 +24,17 @@
                         $(this).dialog("close");
                     }
                 }
-            });            
+            });
         });
 
-        function success() {            
+        function success() {
             $(window).scrollTop($(document).height());
             $("#contact-success").dialog();
         }
 
         function error() {
             $(window).scrollTop($(document).height());
-            $("#contact-error").dialog();            
+            $("#contact-error").dialog();
         }
     </script>
 
