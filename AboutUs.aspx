@@ -7,7 +7,7 @@
         <div id="about_banner" class="content-image  rounded_corners">
         </div>
         <div class="content-main">
-            <div id="about_text_section" class="float-left">
+            <div id="about_text_section" class="float-left rounded">
                 <p>
                     Heineken's proud heritage includes generations of family involvement and celebrated
                     beers. Gerard Adriaan Heineken purchased the De Hooiberg brewery and founded Heineken

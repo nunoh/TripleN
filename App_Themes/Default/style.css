@@ -239,3 +239,7 @@ li[role="menuitem"]:hover {
 #contact-text {
     /*width: 500px;*/
 }
+
+#dialog {
+    font-size: 12px;
+}

@@ -2,6 +2,29 @@
     CodeFile="Contact.aspx.cs" Inherits="Contact" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+
+	
+    
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('#dialog').dialog({
+                autoOpen: false,
+                modal: true,
+                buttons: {
+                    Ok: function () {
+                        $(this).dialog("close");
+                    }
+                }
+            });
+        });
+
+        function sent() {            
+            $(window).scrollTop($(document).height());
+            $("#dialog").dialog();        
+        }
+    </script>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div>
@@ -31,13 +54,17 @@
                 <br />
 
                 <asp:Label ID="uowen" runat="server">&nbsp;</asp:Label>
-                <asp:Button ID="btn_submit" runat="server" Text="Send" OnClick="btnSubmit_Click" /><br />
+                <asp:Button ID="btn_submit" runat="server" Text="     Send     " OnClick="btnSubmit_Click" /><br />
             
                 <asp:Label ID="lbl_res" runat="server"></asp:Label><br />
 
             </div>
 
             <div class="clear"></div>
+
+            <div id="dialog" class="dialog" title="Thanks!">
+                <p>Thank you for your feedback. We will take it into consideration.</p>
+            </div>
         
         </div>
     </div>
