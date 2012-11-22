@@ -4,7 +4,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <div>
         <div id="about_banner" class="content-image  rounded_corners">
         </div>
         <div class="content-main">
@@ -37,5 +36,5 @@
             <div class="clear">
             </div>
         </div>
-    </div>
+
 </asp:Content>
