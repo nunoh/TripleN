@@ -18,7 +18,7 @@
 <body>
     <form id="form1" runat="server">
     <!-- sitemap -->
-    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" />
+    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false"/>
     <div id="wrapper">
         <div id="header">            
             
@@ -29,7 +29,7 @@
             </div>
             
             <a href="<%= Page.ResolveUrl("~")%>index.aspx"><img src="<%= Page.ResolveUrl("~")%>img/logo2.png" id="logo" alt="Home"  /></a>
-            <asp:Menu ID="Menu1" CssClass="rounded_corners" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticHoverStyle-BackColor="#0066FF" >
+            <asp:Menu ID="Menu1" CssClass="rounded_corners" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticHoverStyle-BackColor="#0066FF" DynamicHoverStyle-BackColor="#004488" StaticEnableDefaultPopOutImage="false">
             </asp:Menu>
         </div>
         <div id="content">

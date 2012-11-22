@@ -147,4 +147,7 @@
   <data name="WhereToBuy" xml:space="preserve">
     <value>Dónde Comprar</value>
   </data>
+  <data name="News" xml:space="preserve">
+    <value>Noticias</value>
+  </data>
 </root>
