@@ -10,7 +10,7 @@ using System.Net;
 public partial class Contact : BasePage {
 
     private String toEmailAddress = "nuno.hespanhol@gmail.com";
-    private String senderEmailAddress = "beertriplen@gmail.com";
+    private String senderEmailAddress = "BeerTripleN@gmail.com";
     private String smtpServer = "smtp.gmail.com";
     private String senderPassword = "horsensftw";
     private int smtpPort = 587;
