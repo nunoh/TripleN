@@ -13,8 +13,9 @@ body {
     font-family: Tahoma;
 }
 
-a {
-    color: #f9f9f9;
+a 
+{
+    color: white;
     text-decoration: none;
 }
 
@@ -120,6 +121,11 @@ li[role="menuitem"]:hover {
     background-image: url('../../img/contact.jpeg');
 }
 
+#sitemap_banner 
+{
+    background-image: url('../../img/sitemap.png');
+}
+
 #gmaps {
     margin-left: 20px;
     margin-bottom: 20px; 
@@ -195,6 +201,12 @@ li[role="menuitem"]:hover {
     background-color: White;
     margin-top: 10px;
     padding: 20px 20px 20px 20px;
+}
+
+.content-main a
+{
+    color: Gray;
+    font-weight: bold;
 }
 
 .rounded_corners {
