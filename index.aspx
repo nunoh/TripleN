@@ -43,10 +43,11 @@
             Welcome!<br />Have one with us!
         </div>
 
+        <!--
         <div id="sound">
             <embed name="sound1" src="sound/bottle_open.mp3" volume="100" hidden="true" autostart="false">
-            
         </div>
+        -->
     </div>
     <script src="anim.js" type="text/javascript"></script>
     <script type="text/javascript">
