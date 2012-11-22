@@ -6,7 +6,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     
-    <div id="where-banner" class="content-image  rounded_corners"></div>
+    <div id="where_banner" class="content-image  rounded_corners"></div>
 
     <div class="content-main">
         
@@ -16,11 +16,11 @@
 
         <p><asp:Label ID="whereP2" runat="server" Text="<% $Resources:Strings, whereP2 %>"></asp:Label></p>
 
-        <div id="gmaps">
+        <div id="gmaps" class="float-left">
             <iframe width="600" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=204438229589098210006.0004ceee6d00a95af3348&amp;ie=UTF8&amp;t=p&amp;source=embed&amp;ll=48.748945,3.603516&amp;spn=23.222741,52.734375&amp;z=4&amp;output=embed"></iframe>
         </div>
 
-        <div id="countries">
+        <div id="countries" class="float-right">
         <ul>
             <li>Portugal</li>
             <ul>
@@ -55,7 +55,7 @@
             </ul>
 
         </ul>
-        </p>
+
         </div>
 
     <div style="clear:both"></div>

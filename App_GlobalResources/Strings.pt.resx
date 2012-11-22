@@ -153,4 +153,7 @@
   <data name="whereP2" xml:space="preserve">
     <value>Onde podes comprar uma Triple N atualmente.</value>
   </data>
+  <data name="SiteMap" xml:space="preserve">
+    <value />
+  </data>
 </root>

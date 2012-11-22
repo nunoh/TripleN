@@ -10,9 +10,9 @@ using System.Net;
 public partial class Contact : BasePage {
 
     private String toEmailAddress = "nuno.hespanhol@gmail.com";
-    private String senderEmailAddress = "nuno.hespanhol@gmail.com";
+    private String senderEmailAddress = "beertriplen@gmail.com";
     private String smtpServer = "smtp.gmail.com";
-    private String senderPassword = "xxx";
+    private String senderPassword = "horsensftw";
     private int smtpPort = 587;
 
     protected void Page_Load(object sender, EventArgs e) {
@@ -31,8 +31,8 @@ public partial class Contact : BasePage {
             msg.From = address;
             
             // message body
-            msg.Subject = txtName.Text + " :  " + ddlSubject.Text;
-            msg.Body = txtMessage.Text;
+            msg.Subject = "Feedback from " + txt_name.Text;
+            msg.Body = txt_message.Text;
 
             // smtp client configuration
             SmtpClient client = new SmtpClient(smtpServer, smtpPort);
@@ -45,14 +45,16 @@ public partial class Contact : BasePage {
             client.Send(msg);
 
             // display some feedback to the user to let them know it was sent
-            lblResult.Text = "Your message was sent!";
+            //lbl_res.Text = "Your message was sent!";
 
             // clearing the form
-            txtName.Text = "";
-            txtMessage.Text = "";
+            txt_name.Text = "";
+            txt_message.Text = "";
         }
         catch {
-            lblResult.Text = "Your message failed to send, please try again.";
+            //lbl_res.Text = "Your message failed to send, please try again.";
         }
+
+        ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "tmp", "<script type='text/javascript'>sent();</script>", false);
     }
 }

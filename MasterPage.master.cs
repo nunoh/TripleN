@@ -46,6 +46,7 @@ public partial class MasterPage : System.Web.UI.MasterPage {
         Response.Redirect(Request.Url.AbsolutePath);
     }
     */
+
     protected void changeLanguageEN(object sender, EventArgs e) {
         
         Response.Cookies.Add(new HttpCookie("Culture", "en-GB"));
@@ -57,10 +58,10 @@ public partial class MasterPage : System.Web.UI.MasterPage {
         Response.Redirect(Request.Url.AbsolutePath);
     }
 
-    protected void changeLanguagePT(object sender, EventArgs e) {
+    protected void changeLanguagePT(object sender, EventArgs e)
+    {
         en.Attributes.Add("class", "foo");
         Response.Cookies.Add(new HttpCookie("Culture", "pt-PT"));
         Response.Redirect(Request.Url.AbsolutePath);
     }
-
 }
