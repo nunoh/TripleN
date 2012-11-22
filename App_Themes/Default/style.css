@@ -300,8 +300,7 @@ li[role="menuitem"]:hover {
     padding: 10px;
     width: 500px;
     display: block;
-    margin: auto;
-    
+    margin: auto;    
 }
 
 .contact-form span {
@@ -313,10 +312,6 @@ li[role="menuitem"]:hover {
 
 #contact-banner {
     background-image: url('../../img/contact.png');
-}
-
-#contact-text {
-    /*width: 500px;*/
 }
 
 #dialog {

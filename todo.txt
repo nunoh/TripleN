@@ -2,21 +2,18 @@
 - Photoshop (check)
 - Flash (chekc)
 - Masterpage (check)
-- jQuery
-- Javascript
-- AJAX Control Toolkit (
+- jQuery (check)
+- Javascript (chekc)
+- AJAX Control Toolkit 
 - Usability
-- Globalization (check... kind of)
+- Globalization (check)
 - The Fucking Report! (wip)
-- Metadata (?)
 - HTML/XHTML Validator 
 - CSS Validator
 
-
-
 TODO:
-- Language Bug
-- Uniformization of the header images
+- Language Bug (fixed)
+- Uniformization of the header images (Andre)
 - Include News on SiteMap (?)
 - Solve IE issues
 - Translate everything (including the pop-up message in javascript!)
