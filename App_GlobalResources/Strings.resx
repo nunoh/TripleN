@@ -156,4 +156,7 @@
   <data name="SiteMap" xml:space="preserve">
     <value>SiteMap</value>
   </data>
+  <data name="News" xml:space="preserve">
+    <value>News</value>
+  </data>
 </root>

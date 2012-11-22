@@ -7,7 +7,7 @@
         <div id="about_banner" class="content-image  rounded_corners">
         </div>
         <div class="content-main">
-            <div id="about_text_section" class="float-left rounded">
+            <div class="float-left rounded text_section">
                 <p>
                     Heineken's proud heritage includes generations of family involvement and celebrated
                     beers. Gerard Adriaan Heineken purchased the De Hooiberg brewery and founded Heineken
@@ -29,9 +29,9 @@
                     States.
                 </p>
             </div>
-            <div id="about_image_section" class="float-right">
-                <img src="img/company1.jpg" />
-                <img src="img/company2.jpg" />
+            <div class="float-right image_section">
+                <img src="<%= Page.ResolveUrl("~")%>img/company1.jpg" />
+                <img src="<%= Page.ResolveUrl("~")%>img/company2.jpg" />
             </div>
             <div class="clear">
             </div>

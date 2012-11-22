@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.0/themes/ui-lightness/jquery-ui.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js" type="text/javascript"></script>
-    
+    <script src="js/AgeVerification.js" type="text/javascript"></script>
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 
@@ -17,7 +18,7 @@
 <body>
     <form id="form1" runat="server">
     <!-- sitemap -->
-    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" />
+    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false"/>
     <div id="wrapper">
         <div id="header">            
             
@@ -26,9 +27,9 @@
                 <a id="es" OnServerClick="changeLanguageES" runat="server">ES</a> |
                 <a id="pt" OnServerClick="changeLanguagePT" runat="server">PT</a>
             </div>
-
-            <a href="index.aspx"><img src="img/logo.png" id="logo" /></a>
-            <asp:Menu ID="Menu1" CssClass="rounded_corners" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticHoverStyle-BackColor="#0066FF">
+            
+            <a href="<%= Page.ResolveUrl("~")%>index.aspx"><img src="<%= Page.ResolveUrl("~")%>img/logo2.png" id="logo" alt="Home"  /></a>
+            <asp:Menu ID="Menu1" CssClass="rounded_corners" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticHoverStyle-BackColor="#0066FF" DynamicHoverStyle-BackColor="#004488" StaticEnableDefaultPopOutImage="false">
             </asp:Menu>
         </div>
         <div id="content">
@@ -39,8 +40,8 @@
         
             <div id="footer-left">
                 <div>
-                    <a href="#">NEWS</a> | 
-                    <a href="SiteMap.aspx">SITEMAP</a>
+                    <a href="<%= Page.ResolveUrl("~")%>news/default.aspx">NEWS</a> | 
+                    <a href="<%= Page.ResolveUrl("~")%>SiteMap.aspx">SITEMAP</a>
                 </div>
                 <div>
                 <p>Copyright © 2012 - DMT, VIA UC Horsens</p>
@@ -49,8 +50,8 @@
             </div>
 
             <div id="footer-right">
-                <a href="#"><img src="img/twitter.png" /></a>
-                <a href="#"><img src="img/facebook.png" /></a>
+                <a href="http://www.twitter.com"><img src="<%= Page.ResolveUrl("~")%>img/twitter.png" /></a>
+                <a href="http://www.facebook.com"><img src="<%= Page.ResolveUrl("~")%>img/facebook.png" /></a>
             </div>
 
         </div>

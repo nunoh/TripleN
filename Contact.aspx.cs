@@ -10,7 +10,7 @@ using System.Net;
 public partial class Contact : BasePage {
 
     private String toEmailAddress = "nuno.hespanhol@gmail.com";
-    private String senderEmailAddress = "beertriplen@gmail.com";
+    private String senderEmailAddress = "BeerTripleN@gmail.com";
     private String smtpServer = "smtp.gmail.com";
     private String senderPassword = "horsensftw";
     private int smtpPort = 587;
@@ -20,6 +20,12 @@ public partial class Contact : BasePage {
     }
 
     protected void btnSubmit_Click(object sender, EventArgs e) {
+
+        if (txt_name.Text == "" || txt_message.Text == "") {
+            ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "tmp", "<script type='text/javascript'>error();</script>", false);
+            return;
+        }
+            
         try  {
             MailMessage msg = new MailMessage();
 
@@ -55,6 +61,6 @@ public partial class Contact : BasePage {
             //lbl_res.Text = "Your message failed to send, please try again.";
         }
 
-        ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "tmp", "<script type='text/javascript'>sent();</script>", false);
+        ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "tmp", "<script type='text/javascript'>success();</script>", false);
     }
 }
