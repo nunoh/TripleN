@@ -75,7 +75,7 @@
 
             <div class="clear"></div>
 
-            <div id="contact-success" class="dialog" title="Thanks!">
+            <div id="contact-success" class="dialog" title="Thank you!">
                 <p>Thank you for your feedback. We will take it into consideration.</p>
             </div>
 
