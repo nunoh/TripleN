@@ -1,0 +1,20 @@
+﻿We should make sure that we use/do:
+- Photoshop (check)
+- Flash (chekc)
+- Masterpage (check)
+- jQuery (check)
+- Javascript (chekc)
+- AJAX Control Toolkit 
+- Usability
+- Globalization (check)
+- The Fucking Report! (wip)
+- HTML/XHTML Validator 
+- CSS Validator
+
+TODO:
+- Language Bug (fixed)
+- Uniformization of the header images (Andre)
+- Include News on SiteMap (?)
+- Solve IE issues
+- Translate everything (including the pop-up message in javascript!)
+- Think in usability and in accessibility
