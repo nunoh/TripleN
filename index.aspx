@@ -14,13 +14,13 @@
     </div>
     <div id="main_news">
         <div class="news_frame">
-            <a href="#"><img src="img/banner1.png" class="rounded_corners" /></a>
+            <a href="<%= Page.ResolveUrl("~")%>news/News1.aspx"><img src="<%= Page.ResolveUrl("~")%>img/banner1.png" class="rounded_corners" /></a>
         </div>
         <div class="news_frame">
-            <a href="#"><img src="img/banner2.png" class="rounded_corners" /></a>
+            <a href="<%= Page.ResolveUrl("~")%>news/News2.aspx"><img src="<%= Page.ResolveUrl("~")%>img/banner2.png" class="rounded_corners" /></a>
         </div>
         <div class="news_frame" id="news_frame_last">
-            <a href="#"><img src="img/banner3.png" class="rounded_corners" /></a>
+            <a href="<%= Page.ResolveUrl("~")%>news/News3.aspx"><img src="<%= Page.ResolveUrl("~")%>img/banner3.png" class="rounded_corners" /></a>
         </div>
     </div>
 </asp:Content>

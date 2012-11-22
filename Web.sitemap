@@ -2,11 +2,10 @@
 <siteMap enableLocalization="true" xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
   <siteMapNode url="index.aspx" title="$resources:Strings,Home"  description="Main page of the website." showMenu="false">
     <siteMapNode url="AboutUs.aspx" title="$resources:Strings,AboutUs"  description="All about the brand." showMenu="true"/>
-    <siteMapNode url="~/Beers/Default.aspx" title="$resources:Strings,OurBeer"  description="All about the beer." showMenu="true">
-      <siteMapNode url="~/ClassicBeer.aspx" title="$resources:Strings,ClassicBeer"  description="Page about the Classic beer." showMenu="true"/>
-      <siteMapNode url="~/GourmetBeer.aspx" title="$resources:Strings,GourmetBeer"  description="Page about the Gourmet beer." showMenu="true"/>
-      <siteMapNode url="~/RedBeer.aspx" title="$resources:Strings,RedBeer"  description="Page about the Red beer." showMenu="true"/>
-      <siteMapNode url="~/BlackBeer.aspx" title="$resources:Strings,BlackBeer"  description="Page about the Black beer." showMenu="true"/>
+    <siteMapNode url="~/beers/Beers.aspx" title="$resources:Strings,OurBeer"  description="All about the beer." showMenu="true">
+      <siteMapNode url="~/beers/ClassicBeer.aspx" title="$resources:Strings,ClassicBeer"  description="Page about the Classic beer." showMenu="true"/>
+      <siteMapNode url="~/beers/GourmetBeer.aspx" title="$resources:Strings,GourmetBeer"  description="Page about the Gourmet beer." showMenu="true"/>
+      <siteMapNode url="~/beers/BlackBeer.aspx" title="$resources:Strings,BlackBeer"  description="Page about the Black beer." showMenu="true"/>
     </siteMapNode>
     <siteMapNode url="WhereToBuy.aspx" title="$resources:Strings,WhereToBuy"  description="Locals to buy our beer." showMenu="true"/>
     <siteMapNode url="Contact.aspx" title="$resources:Strings,ContactUs"  description="Page for contact." showMenu="true"/>

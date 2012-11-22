@@ -1,4 +1,4 @@
-﻿?@font-face {
+﻿@font-face {
     font-family: 'BebasNeueRegular';
     src: url('fonts/BebasNeue/BebasNeue-webfont.eot');
     src: url('fonts/BebasNeue/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/BebasNeue/BebasNeue-webfont.woff') format('woff'), url('fonts/BebasNeue/BebasNeue-webfont.ttf') format('truetype'), url('fonts/BebasNeue/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #a1a1a1;
+    background: #39311C url('http://brewsters.ca/wp-content/themes/Brewsters/img/background_top.jpg') no-repeat top center;
     width: 960px;
     margin: auto;
     font-family: Tahoma;
@@ -120,10 +120,20 @@ li[role="menuitem"]:hover {
     background-image: url('../../img/contact.jpeg');
 }
 
-#sitemap_banner 
-{
+#sitemap_banner {
     background-image: url('../../img/sitemap.png');
 }
+
+#beers_banner 
+{
+    background-image: url('../../img/beers.png');
+}
+
+#news_banner 
+{
+    background-image: url('../../img/news.png');
+}
+
 
 #gmaps {
     margin-left: 20px;
@@ -161,17 +171,43 @@ li[role="menuitem"]:hover {
     font-weight: bold;
 }
 
-#about_text_section 
+#beers_container 
+{
+    display: block;
+    text-align: center;
+    width: 70%;
+    margin: 30px auto 0 auto;
+}
+
+#classicbeer_container 
+{
+    width:100%;
+    min-height:530px;
+    clear:both;
+    background:#ffffff url('../../img/classic_deg.jpg') no-repeat right top;
+}
+
+#gourmetbeer_container 
+{
+    width:100%; min-height:520px; clear:both; background:#ffffff url('../../img/gourmet.jpg') no-repeat right top;
+}
+
+.news-container h1 
+{
+    margin-bottom: 10px;
+}
+
+.text_section 
 {
     width: 600px;
 }
 
-#about_image_section 
+.image_section 
 {
     width: 300px;
 }
 
-#about_image_section img 
+.image_section img 
 {
     width: 90%;
     height: 90%;
@@ -179,6 +215,38 @@ li[role="menuitem"]:hover {
     margin-right: auto;
     margin-bottom: 10px;
     display: block;
+}
+
+.news-list 
+{
+  margin-bottom: 30px;
+}
+
+.news-list span, .news-container span
+{
+    font-style: italic;
+    font-size: 14px;
+}
+
+.news-list h2
+{
+    margin-bottom:5px;
+    color: Black;
+}
+
+.beer_option 
+{
+    width: 200px;
+    padding-top: 20px;
+    color: Black;
+}
+
+.beer_option:hover 
+{
+    width: 200px;
+    background-color:Gray;
+    color: White;
+    
 }
 
 .float-right {
