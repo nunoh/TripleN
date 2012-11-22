@@ -45,13 +45,14 @@ p
 
 li[role="menuitem"] {
     height: 100%;
-    margin: 25px 40px 25px 10px;
+    margin: 25px 15px 25px 15px;
 }
 
 #Menu1 ul {
     position: relative;
     float: right !important;
     margin-right: 30px;
+    
 }
 
 li[role="menuitem"]:hover {
