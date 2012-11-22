@@ -81,7 +81,7 @@ function animateTop() {
     move(myBot, "top", 300, 1000);
 
     setTimeout(function () {
-        document.getElementById("sound").innerHTML = '<object data="sound/bottle_open.mp3"></object>';
+        //document.getElementById("sound").innerHTML = '<object data="sound/bottle_open.mp3"></object>';
     }, 1700);   // Opening sound
 
     setTimeout(function () {

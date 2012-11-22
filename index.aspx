@@ -25,7 +25,7 @@
         </div>
     </div>
 
-    <div id="ani" style="width:980px; height:800px; overflow:hidden; position:absolute; top:0; left:180px; z-index:100;"  onclick="hideBottle()">
+    <div id="ani" style="width:980px; height:800px; overflow:hidden; position:absolute; top:0; left:580px; z-index:100;"  onclick="hideBottle()">
 
         <div id="ani_bottle" style="position:absolute; left:260px; top:700px;">
             <img id="ifoam" src="img/inner_foam.png" style="visibility:hidden;" alt="" />
@@ -39,7 +39,7 @@
             <canvas id="ani_top_c"></canvas>
         </div>
 
-        <div id="sayhi" style="position:absolute; left: 570px; top: 300px; color:#ff6a00; background-color:#fff; display:none; text-align:center; width:200px;">
+        <div id="sayhi" style="position:absolute; left: 570px; top: 300px; color:#ff6a00; display:none; text-align:center; width:200px;">
             Welcome!<br />Have one with us!
         </div>
 
@@ -51,6 +51,9 @@
     </div>
     <script src="anim.js" type="text/javascript"></script>
     <script type="text/javascript">
-        $(document).ready(animateTop());
+        $(document).ready(function () {
+            animateTop();
+            setTimeout("hideBottle()",8000);
+        });
     </script>
 </asp:Content>
