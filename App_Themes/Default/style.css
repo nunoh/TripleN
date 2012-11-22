@@ -314,6 +314,6 @@ li[role="menuitem"]:hover {
     background-image: url('../../img/contact.png');
 }
 
-#dialog {
+#contact-success, #contact-error {
     font-size: 12px;
 }

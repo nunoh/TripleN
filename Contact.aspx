@@ -6,7 +6,7 @@
     <script type="text/javascript">
 
         $(document).ready(function () {
-            $('#dialog').dialog({
+            $('#contact-success').dialog({
                 autoOpen: false,
                 modal: true,
                 buttons: {
@@ -15,11 +15,26 @@
                     }
                 }
             });
+
+            $('#contact-error').dialog({
+                autoOpen: false,
+                modal: true,
+                buttons: {
+                    Ok: function () {
+                        $(this).dialog("close");
+                    }
+                }
+            });            
         });
 
-        function sent() {            
+        function success() {            
             $(window).scrollTop($(document).height());
-            $("#dialog").dialog();        
+            $("#contact-success").dialog();
+        }
+
+        function error() {
+            $(window).scrollTop($(document).height());
+            $("#contact-error").dialog();            
         }
     </script>
 
@@ -60,8 +75,12 @@
 
             <div class="clear"></div>
 
-            <div id="dialog" class="dialog" title="Thanks!">
+            <div id="contact-success" class="dialog" title="Thanks!">
                 <p>Thank you for your feedback. We will take it into consideration.</p>
+            </div>
+
+            <div id="contact-error" class="dialog" title="Error">
+                <p>Please provide a valid Name and/or Message.</p>
             </div>
         
         </div>
