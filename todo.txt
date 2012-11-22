@@ -11,3 +11,13 @@
 - Metadata (?)
 - HTML/XHTML Validator 
 - CSS Validator
+
+
+
+TODO:
+- Language Bug
+- Uniformization of the header images
+- Include News on SiteMap (?)
+- Solve IE issues
+- Translate everything (including the pop-up message in javascript!)
+- Think in usability and in accessibility
