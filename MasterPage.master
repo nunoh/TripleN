@@ -5,7 +5,7 @@
 <head runat="server">
     <title>Triple N</title>
     <link href="App_Themes/Default/style.css" rel="stylesheet" type="text/css" />
-    
+
     <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.0/themes/ui-lightness/jquery-ui.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js" type="text/javascript"></script>
@@ -20,33 +20,36 @@
     <!-- sitemap -->
     <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false"/>
     <div id="wrapper">
-        <div id="header">            
-            
+
+        <div id="header">
+
             <div id="lng">
                 <a id="en" class="foo" OnServerClick="changeLanguageEN" runat="server">EN</a> |
                 <a id="es" OnServerClick="changeLanguageES" runat="server">ES</a> |
                 <a id="pt" OnServerClick="changeLanguagePT" runat="server">PT</a>
             </div>
-            
+
             <a href="<%= Page.ResolveUrl("~")%>index.aspx"><img src="<%= Page.ResolveUrl("~")%>img/logo2.png" id="logo" alt="Home"  /></a>
             <asp:Menu ID="Menu1" CssClass="rounded_corners" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticHoverStyle-BackColor="#0066FF" DynamicHoverStyle-BackColor="#004488" StaticEnableDefaultPopOutImage="false">
             </asp:Menu>
         </div>
+
         <div id="content">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
+
         <div id="footer">
-        
+
             <div id="footer-left">
                 <div>
-                    <a href="<%= Page.ResolveUrl("~")%>news/default.aspx">NEWS</a> | 
+                    <a href="<%= Page.ResolveUrl("~")%>news/default.aspx">NEWS</a> |
                     <a href="<%= Page.ResolveUrl("~")%>SiteMap.aspx">SITEMAP</a>
                 </div>
                 <div>
                 <p>Copyright © 2012 - DMT, VIA UC Horsens</p>
                 </div>
-             
+
             </div>
 
             <div id="footer-right">

@@ -25,7 +25,7 @@ public partial class Contact : BasePage {
             ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "tmp", "<script type='text/javascript'>error();</script>", false);
             return;
         }
-            
+
         try  {
             MailMessage msg = new MailMessage();
 
@@ -35,7 +35,7 @@ public partial class Contact : BasePage {
             // who's going to appear as the sender
             MailAddress address = new MailAddress(senderEmailAddress);
             msg.From = address;
-            
+
             // message body
             msg.Subject = "Feedback from " + txt_name.Text;
             msg.Body = txt_message.Text;
@@ -43,7 +43,7 @@ public partial class Contact : BasePage {
             // smtp client configuration
             SmtpClient client = new SmtpClient(smtpServer, smtpPort);
             client.EnableSsl = true;
-            
+
             NetworkCredential credentials = new NetworkCredential(senderEmailAddress, senderPassword);
             client.Credentials = credentials;
 
