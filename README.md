@@ -5,9 +5,9 @@ A website for promoting the fictional _Triple N_ beer.
 This was the final project for the Digital and Media Tools class from VIA University College (Horsens, Denmark) Autumn 2012.
 
 Group:
-* André Alves (PT)
-* Enrique Navarro (ES)
-* Nuno Hespanhol (PT)
+* André Alves (Portugal)
+* Enrique Navarro (Spain)
+* Nuno Hespanhol (Portugal)
 
 Homepage screenshot:
 
